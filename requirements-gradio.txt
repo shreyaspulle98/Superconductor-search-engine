@@ -1,0 +1,22 @@
+# Requirements for HuggingFace Spaces (Gradio)
+# This is a lighter version focused on inference only
+
+# Deep learning
+torch>=2.0.0
+transformers>=4.30.0
+sentence-transformers>=2.2.0
+
+# Vector search
+faiss-cpu>=1.7.4
+
+# Web interface
+gradio>=4.0.0
+
+# Data processing
+numpy>=1.24.0
+
+# For HuggingFace integration
+huggingface_hub>=0.19.0
+
+# Progress bars
+tqdm>=4.65.0
