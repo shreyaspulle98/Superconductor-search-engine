@@ -1,0 +1,20 @@
+{
+  "created_at": "2025-11-04T23:12:19.536512",
+  "training_examples": 4546,
+  "total_documents": 1762,
+  "total_query_pairs": 8835,
+  "positive_pairs": 4546,
+  "negative_pairs": 4289,
+  "unique_queries": 1522,
+  "data_sources": {
+    "queries": "data/processed/queries_final_clean_20251104_230506.json",
+    "documents": "data/processed/FINAL_ALL_IMPROVED_documents_20251104_223630.json"
+  },
+  "quality_info": {
+    "average_positive_score": 0.865,
+    "min_relevance_threshold": 0.6,
+    "removed_weak_pairs": "78.3% of original",
+    "removed_duplicates": 33184,
+    "removed_off_topic": 118
+  }
+}

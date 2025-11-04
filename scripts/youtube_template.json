@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "scrape_date": "2025-10-31T10:00:00.000000",
+    "api_quota_used": 5000,
+    "api_quota_limit": 10000,
+    "total_videos": 2,
+    "total_words": 3500,
+    "focus_breakdown": {
+      "main": 2,
+      "hot_topic": 0,
+      "sub_focus": 0
+    },
+    "queries_executed": 10,
+    "unique_videos_found": 25,
+    "transcript_availability_rate": "8.0%"
+  },
+  "videos": [
+    {
+      "id": "youtube_abc123",
+      "video_id": "abc123",
+      "title": "Introduction to Superconductivity - Part 1",
+      "url": "https://www.youtube.com/watch?v=abc123",
+      "channel_name": "Physics Lectures Online",
+      "channel_id": "UCxxxxxxxxxxx",
+      "published_at": "2024-01-15T10:30:00Z",
+      "duration": "PT15M30S",
+      "view_count": 125000,
+      "like_count": 3500,
+      "comment_count": 250,
+      "description": "This lecture covers the basic principles of superconductivity including zero resistance and the Meissner effect.",
+      "tags": [
+        "superconductivity",
+        "physics",
+        "condensed matter",
+        "quantum mechanics"
+      ],
+      "transcript": {
+        "text": "Welcome to this lecture on superconductivity. Today we'll explore the fascinating phenomenon where certain materials exhibit zero electrical resistance when cooled below a critical temperature. We'll start with the historical discovery by Heike Kamerlingh Onnes in 1911...",
+        "language": "en",
+        "is_auto_generated": false
+      },
+      "categorization": {
+        "material": "superconductors",
+        "focus_type": "main",
+        "keywords": [
+          "superconductor",
+          "critical temperature",
+          "Meissner effect"
+        ]
+      }
+    },
+    {
+      "id": "youtube_def456",
+      "video_id": "def456",
+      "title": "High-Temperature Superconductors Explained",
+      "url": "https://www.youtube.com/watch?v=def456",
+      "channel_name": "Materials Science Today",
+      "channel_id": "UCyyyyyyyyyyyy",
+      "published_at": "2024-03-20T14:00:00Z",
+      "duration": "PT22M45S",
+      "view_count": 87000,
+      "like_count": 2100,
+      "comment_count": 180,
+      "description": "Deep dive into high-temperature superconductors, including cuprates and iron-based superconductors.",
+      "tags": [
+        "high temperature superconductors",
+        "cuprates",
+        "iron pnictides",
+        "YBCO"
+      ],
+      "transcript": {
+        "text": "High-temperature superconductors revolutionized the field when they were discovered in 1986. Unlike conventional superconductors that require liquid helium cooling, these materials can operate at temperatures achievable with liquid nitrogen...",
+        "language": "en",
+        "is_auto_generated": false
+      },
+      "categorization": {
+        "material": "superconductors",
+        "focus_type": "main",
+        "keywords": [
+          "high temperature",
+          "cuprates",
+          "YBCO"
+        ]
+      }
+    }
+  ]
+}

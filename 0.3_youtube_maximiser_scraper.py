@@ -68,7 +68,10 @@ class YouTubeMaximizerRobust:
         self.quota_used = 0
         self.quota_limit = 9900  # Leave 100 units buffer
         self.checkpoint_file = 'youtube_scrape_checkpoint.json'
-        
+
+        # Initialize Transcript API (v1.2.3 uses instance methods)
+        self.transcript_api = YouTubeTranscriptApi()
+
         # Statistics tracking
         self.stats = {
             'searches_completed': 0,
@@ -349,10 +352,10 @@ class YouTubeMaximizerRobust:
         """
         try:
             # Add delay BEFORE each request to be respectful
-            time.sleep(0.3)  # 300ms delay = max ~3 requests/second
+            time.sleep(0.4)  # 400ms delay to be extra safe
 
-            # Check if transcript exists
-            YouTubeTranscriptApi.get_transcript(video_id)
+            # Check if transcript exists (using new API v1.2.3)
+            self.transcript_api.fetch(video_id=video_id)
             self.stats['transcripts_available'] += 1
             return True
 
@@ -418,11 +421,13 @@ class YouTubeMaximizerRobust:
         """
         try:
             # Rate limiting
-            time.sleep(0.3)
+            time.sleep(0.4)
 
-            # Get transcript and extract text
-            transcript_list = YouTubeTranscriptApi.get_transcript(video_id)
-            full_text = " ".join([entry['text'] for entry in transcript_list])
+            # Get transcript using new API (v1.2.3)
+            result = self.transcript_api.fetch(video_id=video_id)
+
+            # Extract text from snippets
+            full_text = " ".join([snippet.text for snippet in result.snippets])
             return full_text
         except:
             return None

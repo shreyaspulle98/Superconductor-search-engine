@@ -152,57 +152,87 @@ def perform_search(query, difficulty_filter=None, num_results=10):
         return "<p style='color: orange;'>No results found. Try a different query or remove the difficulty filter.</p>"
 
     # Format results as HTML
-    difficulty_colors = {
-        1: "#d4edda",
-        2: "#d1ecf1",
-        3: "#fff3cd",
-        4: "#f8d7da",
-        5: "#d6d8db"
+    difficulty_styles = {
+        1: {
+            "name": "Beginner",
+            "chip_bg": "#16a34a",
+            "chip_text": "#f0fdf4",
+            "accent": "linear-gradient(135deg, rgba(22, 163, 74, 0.08) 0%, rgba(22, 163, 74, 0.35) 55%, rgba(15, 23, 42, 0.0) 100%)",
+            "border": "#16a34a"
+        },
+        2: {
+            "name": "Intermediate",
+            "chip_bg": "#0ea5e9",
+            "chip_text": "#f0f9ff",
+            "accent": "linear-gradient(135deg, rgba(14, 165, 233, 0.08) 0%, rgba(14, 165, 233, 0.35) 55%, rgba(15, 23, 42, 0.0) 100%)",
+            "border": "#0ea5e9"
+        },
+        3: {
+            "name": "Advanced",
+            "chip_bg": "#f59e0b",
+            "chip_text": "#fff7ed",
+            "accent": "linear-gradient(135deg, rgba(245, 158, 11, 0.08) 0%, rgba(245, 158, 11, 0.3) 55%, rgba(15, 23, 42, 0.0) 100%)",
+            "border": "#f59e0b"
+        },
+        4: {
+            "name": "Expert",
+            "chip_bg": "#ef4444",
+            "chip_text": "#fef2f2",
+            "accent": "linear-gradient(135deg, rgba(239, 68, 68, 0.08) 0%, rgba(239, 68, 68, 0.35) 55%, rgba(15, 23, 42, 0.0) 100%)",
+            "border": "#ef4444"
+        },
+        5: {
+            "name": "Cutting-edge",
+            "chip_bg": "#6366f1",
+            "chip_text": "#eef2ff",
+            "accent": "linear-gradient(135deg, rgba(99, 102, 241, 0.08) 0%, rgba(99, 102, 241, 0.3) 55%, rgba(15, 23, 42, 0.0) 100%)",
+            "border": "#6366f1"
+        }
     }
 
-    difficulty_names = {
-        1: "Beginner",
-        2: "Intermediate",
-        3: "Advanced",
-        4: "Expert",
-        5: "Cutting-edge"
+    default_style = {
+        "name": "Advanced",
+        "chip_bg": "#475569",
+        "chip_text": "#f8fafc",
+        "accent": "linear-gradient(135deg, rgba(71, 85, 105, 0.1) 0%, rgba(71, 85, 105, 0.25) 55%, rgba(15, 23, 42, 0.0) 100%)",
+        "border": "#475569"
     }
 
-    html = f"<h3>Top {len(results)} Results for: '{query}'</h3><br>"
+    html = f"<h3 style='color:#f8fafc;'>Top {len(results)} Results for: '{query}'</h3><br>"
 
     for i, result in enumerate(results, 1):
         level = result['difficulty_level']
-        bg_color = difficulty_colors.get(level, "#e9ecef")
-        diff_name = difficulty_names.get(level, "Advanced")
+        style = difficulty_styles.get(level, default_style)
+        source_label = (result['source'] or 'unknown').replace('_', ' ').title()
 
         html += f"""
-        <div style='background: white; border: 1px solid #ddd; border-radius: 8px; padding: 16px; margin-bottom: 12px;'>
-            <div style='display: flex; align-items: center; margin-bottom: 8px;'>
-                <span style='background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;
-                             border-radius: 50%; width: 28px; height: 28px; display: inline-flex;
-                             align-items: center; justify-content: center; font-weight: bold; margin-right: 10px;'>
-                    {i}
-                </span>
-                <a href='{result['url']}' target='_blank' style='font-size: 1.2em; font-weight: bold;
-                   color: #333; text-decoration: none;'>
-                    {result['title']}
-                </a>
-            </div>
-            <div style='display: flex; gap: 8px; margin-bottom: 8px;'>
-                <span style='background: {bg_color}; padding: 4px 12px; border-radius: 12px;
-                             font-size: 0.85em; font-weight: 600;'>
-                    {diff_name}
-                </span>
-                <span style='background: #e9ecef; padding: 4px 12px; border-radius: 12px;
-                             font-size: 0.85em; font-weight: 600;'>
-                    {result['source']}
-                </span>
-                <span style='color: #999; font-size: 0.85em; padding: 4px 12px;'>
-                    {result['word_count']:,} words
-                </span>
-            </div>
-            <div style='font-size: 0.9em; color: #666;'>
-                Score: {result['score']:.4f}
+        <div class='result-card' style='border-left: 6px solid {style['border']}'>
+            <div style='position:absolute; inset:0; background: {style['accent']}; opacity:0.6; pointer-events:none;'></div>
+            <div style='position:relative; z-index:1;'>
+                <div style='display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px;'>
+                    <div style='display: flex; align-items: center; gap: 12px;'>
+                        <span class='result-rank' style='background: {style['chip_bg']}; color: {style['chip_text']};'>
+                            {i}
+                        </span>
+                        <a href='{result['url']}' target='_blank' class='result-title'>
+                            {result['title']}
+                        </a>
+                    </div>
+                </div>
+                <div style='display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 12px;'>
+                    <span class='result-chip' style='background: {style['chip_bg']}; color: {style['chip_text']};'>
+                        {style['name']}
+                    </span>
+                    <span class='result-chip source-chip'>
+                        {source_label}
+                    </span>
+                    <span class='result-chip meta-chip'>
+                        {result['word_count']:,} words
+                    </span>
+                </div>
+                <div style='font-size: 0.9em; color: #94a3b8;'>
+                    Score: {result['score']:.4f}
+                </div>
             </div>
         </div>
         """
@@ -214,6 +244,79 @@ def perform_search(query, difficulty_filter=None, num_results=10):
 # ============================================================================
 
 with gr.Blocks(title="Superconductor Semantic Search", theme=gr.themes.Soft()) as demo:
+    gr.HTML("""
+    <style>
+      body, .gradio-container {
+          background: linear-gradient(180deg, #020617 0%, #0b1120 100%) !important;
+          color: #e2e8f0;
+      }
+
+      .gradio-container .gr-block, .gradio-container .gr-panel, .gradio-container .gr-root {
+          background: transparent !important;
+      }
+
+      .result-card {
+          background: linear-gradient(145deg, rgba(15, 23, 42, 0.9), rgba(30, 41, 59, 0.92));
+          border-radius: 18px;
+          padding: 20px 22px;
+          margin-bottom: 18px;
+          border: 1px solid rgba(148, 163, 184, 0.25);
+          box-shadow: 0 18px 40px rgba(15, 23, 42, 0.45);
+          position: relative;
+          overflow: hidden;
+          color: #e2e8f0;
+      }
+
+      .result-rank {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: 700;
+          border-radius: 999px;
+          width: 34px;
+          height: 34px;
+          font-size: 1rem;
+          box-shadow: 0 10px 20px rgba(15, 23, 42, 0.35);
+      }
+
+      .result-title {
+          font-size: 1.2em;
+          font-weight: 700;
+          color: #f8fafc;
+          text-decoration: none;
+      }
+
+      .result-title:hover {
+          text-decoration: underline;
+      }
+
+      .result-chip {
+          display: inline-flex;
+          align-items: center;
+          font-size: 0.85em;
+          font-weight: 600;
+          padding: 6px 14px;
+          border-radius: 999px;
+          letter-spacing: 0.01em;
+      }
+
+      .source-chip {
+          background: rgba(148, 163, 184, 0.18);
+          color: #cbd5f5;
+          border: 1px solid rgba(148, 163, 184, 0.28);
+      }
+
+      .meta-chip {
+          color: #cbd5f5;
+          background: rgba(148, 163, 184, 0.08);
+          border: 1px solid rgba(148, 163, 184, 0.18);
+      }
+
+      .gr-markdown, .gr-markdown p, .gr-markdown h3, .gr-markdown li {
+          color: #e2e8f0 !important;
+      }
+    </style>
+    """)
     gr.Markdown("""
     # ⚡ Superconductor Semantic Search
 
@@ -261,6 +364,12 @@ with gr.Blocks(title="Superconductor Semantic Search", theme=gr.themes.Soft()) a
             ["high-Tc cuprate superconductors", "3", 10],
         ],
         inputs=[query_input, difficulty_dropdown, num_results_slider],
+    )
+
+    query_input.submit(
+        fn=perform_search,
+        inputs=[query_input, difficulty_dropdown, num_results_slider],
+        outputs=results_output
     )
 
     search_button.click(

@@ -56,16 +56,34 @@ checkpoints/
 
 # Large data files (hosting on HuggingFace instead)
 data/raw/
-models/
 data/processed/merged_*.json
+data/processed/FINAL_ALL_IMPROVED_*.json
+data/processed/queries_final_clean_*.json
+
+# Models (will host on HuggingFace - entire model directories)
+models/superconductor-search-v1/
+models/superconductor-search-v2/
+
+# Training data (will host on HuggingFace)
+training/training_dataset.json
+training/documents.json
+
+# Search index (will host on HuggingFace)
+search_index/
 
 # Test and evaluation outputs
 evaluation_results/
 *.pkl
 *.pickle
 
-# Scripts directory (if it contains temporary scripts)
-scripts/
+# Archive directory
+archive/
+
+# Dataset upload directory
+dataset_upload/
+
+# Claude directory
+.claude/
 
 # Virtual environment
 venv/
