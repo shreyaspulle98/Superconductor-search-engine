@@ -1,0 +1,3922 @@
+[
+  {
+    "query": "josephson junction",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "what is a josephson junction",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "what is a josephson junction",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "what is a josephson junction",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "what is a josephson junction",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "what is a josephson junction",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson effect",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson effect",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson effect",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson effect",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson effect",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "explain josephson junction",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "explain josephson junction",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "explain josephson junction",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "explain josephson junction",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "explain josephson junction",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction definition",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction definition",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction definition",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction definition",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction definition",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "how does a josephson junction work",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "how does a josephson junction work",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "how does a josephson junction work",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "how does a josephson junction work",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "how does a josephson junction work",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction tutorial",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction tutorial",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction tutorial",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction tutorial",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction tutorial",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction basics",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction basics",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction basics",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction basics",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction basics",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "understanding josephson junctions",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "understanding josephson junctions",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "understanding josephson junctions",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "understanding josephson junctions",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "understanding josephson junctions",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction explained simply",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction explained simply",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction explained simply",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction explained simply",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction explained simply",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction for beginners",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction for beginners",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction for beginners",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction for beginners",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction for beginners",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction applications",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction applications",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction applications",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction applications",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction applications",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction uses",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction uses",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction uses",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction uses",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction uses",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction in squid",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction in squid",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction in squid",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction in squid",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction in squid",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction devices",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction devices",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction devices",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction devices",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction devices",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction sensors",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction sensors",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction sensors",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction sensors",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction sensors",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction physics",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction physics",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction physics",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction physics",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction physics",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction theory",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction theory",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction theory",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction theory",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction theory",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction mechanism",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction mechanism",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction mechanism",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction mechanism",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction mechanism",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction properties",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction properties",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction properties",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction properties",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction properties",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction characteristics",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction characteristics",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction characteristics",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction characteristics",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction characteristics",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction equations",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction equations",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction equations",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction equations",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction equations",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "ac josephson effect",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "ac josephson effect",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "ac josephson effect",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "ac josephson effect",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "ac josephson effect",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "dc josephson effect",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "dc josephson effect",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "dc josephson effect",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "dc josephson effect",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "dc josephson effect",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson voltage",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson voltage",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson voltage",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson voltage",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson voltage",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson current",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson current",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson current",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson current",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson current",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson oscillations",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson oscillations",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson oscillations",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson oscillations",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson oscillations",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson tunneling",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson tunneling",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson tunneling",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson tunneling",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson tunneling",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction materials",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction materials",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction materials",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction materials",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction materials",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction fabrication",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction fabrication",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction fabrication",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction fabrication",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction fabrication",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction structure",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction structure",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction structure",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction structure",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction structure",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction design",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction design",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction design",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction design",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junction design",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junctions",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junctions",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junctions",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junctions",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson junctions",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "the josephson effect",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "the josephson effect",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "the josephson effect",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "the josephson effect",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "the josephson effect",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "brian josephson discovery",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "brian josephson discovery",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "brian josephson discovery",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "brian josephson discovery",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "brian josephson discovery",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson effect nobel prize",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson effect nobel prize",
+    "positive_document_id": "wikipedia_8",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson effect nobel prize",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson effect nobel prize",
+    "positive_document_id": "wikipedia_55",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "josephson effect nobel prize",
+    "positive_document_id": "wikipedia_58",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "what are cuprate superconductors",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "what are cuprate superconductors",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "what are cuprate superconductors",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "what are cuprate superconductors",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "what are cuprate superconductors",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductivity",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductivity",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductivity",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductivity",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductivity",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate materials",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate materials",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate materials",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate materials",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate materials",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "copper oxide superconductors",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "copper oxide superconductors",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "copper oxide superconductors",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "copper oxide superconductors",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "copper oxide superconductors",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "explain cuprate superconductors",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "explain cuprate superconductors",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "explain cuprate superconductors",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "explain cuprate superconductors",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "explain cuprate superconductors",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors definition",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors definition",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors definition",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors definition",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors definition",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors basics",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors basics",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors basics",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors basics",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors basics",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "understanding cuprate superconductors",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "understanding cuprate superconductors",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "understanding cuprate superconductors",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "understanding cuprate superconductors",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "understanding cuprate superconductors",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors for beginners",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors for beginners",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors for beginners",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors for beginners",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors for beginners",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors tutorial",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors tutorial",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors tutorial",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors tutorial",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductors tutorial",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "high temperature cuprate superconductors",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "high temperature cuprate superconductors",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "high temperature cuprate superconductors",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "high temperature cuprate superconductors",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "high temperature cuprate superconductors",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate high tc materials",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate high tc materials",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate high tc materials",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate high tc materials",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate high tc materials",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate critical temperature",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate critical temperature",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate critical temperature",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate critical temperature",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate critical temperature",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprates above 77k",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprates above 77k",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprates above 77k",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprates above 77k",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprates above 77k",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "liquid nitrogen cuprates",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "liquid nitrogen cuprates",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "liquid nitrogen cuprates",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "liquid nitrogen cuprates",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "liquid nitrogen cuprates",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "ybco superconductor",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "ybco superconductor",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "ybco superconductor",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "ybco superconductor",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "ybco superconductor",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "yttrium barium copper oxide",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "yttrium barium copper oxide",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "yttrium barium copper oxide",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "yttrium barium copper oxide",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "yttrium barium copper oxide",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "bscco superconductor",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "bscco superconductor",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "bscco superconductor",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "bscco superconductor",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "bscco superconductor",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "bismuth strontium calcium copper oxide",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "bismuth strontium calcium copper oxide",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "bismuth strontium calcium copper oxide",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "bismuth strontium calcium copper oxide",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "bismuth strontium calcium copper oxide",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "hgbco superconductor",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "hgbco superconductor",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "hgbco superconductor",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "hgbco superconductor",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "hgbco superconductor",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "mercury cuprate",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "mercury cuprate",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "mercury cuprate",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "mercury cuprate",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "mercury cuprate",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "lanthanum cuprate",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "lanthanum cuprate",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "lanthanum cuprate",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "lanthanum cuprate",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "lanthanum cuprate",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate structure",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate structure",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate structure",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate structure",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate structure",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate properties",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate properties",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate properties",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate properties",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate properties",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate mechanism",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate mechanism",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate mechanism",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate mechanism",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate mechanism",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate physics",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate physics",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate physics",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate physics",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate physics",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "d-wave pairing cuprates",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "d-wave pairing cuprates",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "d-wave pairing cuprates",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "d-wave pairing cuprates",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "d-wave pairing cuprates",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate crystal structure",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate crystal structure",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate crystal structure",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate crystal structure",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate crystal structure",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate layered structure",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate layered structure",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate layered structure",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate layered structure",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate layered structure",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate applications",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate applications",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate applications",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate applications",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate applications",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate uses",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate uses",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate uses",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate uses",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate uses",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate technology",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate technology",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate technology",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate technology",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate technology",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate discovery",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate discovery",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate discovery",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate discovery",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate discovery",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate history",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate history",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate history",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate history",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate history",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "bednorz muller cuprates",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "bednorz muller cuprates",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "bednorz muller cuprates",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "bednorz muller cuprates",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "bednorz muller cuprates",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "1986 cuprate discovery",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "1986 cuprate discovery",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "1986 cuprate discovery",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "1986 cuprate discovery",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "1986 cuprate discovery",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductor",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductor",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductor",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductor",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "cuprate superconductor",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "copper-oxide superconductors",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "copper-oxide superconductors",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "copper-oxide superconductors",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "copper-oxide superconductors",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "copper-oxide superconductors",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "perovskite cuprates",
+    "positive_document_id": "wikipedia_26",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "perovskite cuprates",
+    "positive_document_id": "wikipedia_27",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "perovskite cuprates",
+    "positive_document_id": "wikipedia_28",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "perovskite cuprates",
+    "positive_document_id": "wikipedia_49",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "perovskite cuprates",
+    "positive_document_id": "wikipedia_50",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "what is the meissner effect",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "what is the meissner effect",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "what is the meissner effect",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "what is the meissner effect",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "what is the meissner effect",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect definition",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect definition",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect definition",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect definition",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect definition",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "explain meissner effect",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "explain meissner effect",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "explain meissner effect",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "explain meissner effect",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "explain meissner effect",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect explained",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect explained",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect explained",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect explained",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect explained",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect for beginners",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect for beginners",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect for beginners",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect for beginners",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect for beginners",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "understanding meissner effect",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "understanding meissner effect",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "understanding meissner effect",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "understanding meissner effect",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "understanding meissner effect",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect tutorial",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect tutorial",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect tutorial",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect tutorial",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect tutorial",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect basics",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect basics",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect basics",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect basics",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect basics",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect simply explained",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect simply explained",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect simply explained",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect simply explained",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect simply explained",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "how does meissner effect work",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "how does meissner effect work",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "how does meissner effect work",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "how does meissner effect work",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "how does meissner effect work",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect levitation",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect levitation",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect levitation",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect levitation",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect levitation",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "magnetic expulsion meissner",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "magnetic expulsion meissner",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "magnetic expulsion meissner",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "magnetic expulsion meissner",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "magnetic expulsion meissner",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "flux expulsion superconductors",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "flux expulsion superconductors",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "flux expulsion superconductors",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "flux expulsion superconductors",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "flux expulsion superconductors",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner state",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner state",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner state",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner state",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner state",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "perfect diamagnetism",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "perfect diamagnetism",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "perfect diamagnetism",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "perfect diamagnetism",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "perfect diamagnetism",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect physics",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect physics",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect physics",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect physics",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect physics",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect theory",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect theory",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect theory",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect theory",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect theory",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect mechanism",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect mechanism",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect mechanism",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect mechanism",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect mechanism",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "london penetration depth",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "london penetration depth",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "london penetration depth",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "london penetration depth",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "london penetration depth",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect equations",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect equations",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect equations",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect equations",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect equations",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner ochsenfeld effect",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner ochsenfeld effect",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner ochsenfeld effect",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner ochsenfeld effect",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner ochsenfeld effect",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect discovery",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect discovery",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect discovery",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect discovery",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect discovery",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner 1933 discovery",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner 1933 discovery",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner 1933 discovery",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner 1933 discovery",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner 1933 discovery",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "walther meissner",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "walther meissner",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "walther meissner",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "walther meissner",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "walther meissner",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner vs lenz law",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner vs lenz law",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner vs lenz law",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner vs lenz law",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner vs lenz law",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect vs perfect conductor",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect vs perfect conductor",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect vs perfect conductor",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect vs perfect conductor",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect vs perfect conductor",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "type 1 meissner effect",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "type 1 meissner effect",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "type 1 meissner effect",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "type 1 meissner effect",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "type 1 meissner effect",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "type 2 meissner effect",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "type 2 meissner effect",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "type 2 meissner effect",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "type 2 meissner effect",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "type 2 meissner effect",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "vortex state meissner",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "vortex state meissner",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "vortex state meissner",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "vortex state meissner",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "vortex state meissner",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect applications",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect applications",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect applications",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect applications",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect applications",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner levitation applications",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner levitation applications",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner levitation applications",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner levitation applications",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner levitation applications",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect demonstrations",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect demonstrations",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect demonstrations",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect demonstrations",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect demonstrations",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "the meissner effect",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "the meissner effect",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "the meissner effect",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "the meissner effect",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "the meissner effect",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner-ochsenfeld effect",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner-ochsenfeld effect",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner-ochsenfeld effect",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner-ochsenfeld effect",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner-ochsenfeld effect",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect in superconductors",
+    "positive_document_id": "wikipedia_5",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect in superconductors",
+    "positive_document_id": "wikipedia_1",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect in superconductors",
+    "positive_document_id": "wikipedia_2",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect in superconductors",
+    "positive_document_id": "wikipedia_22",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  },
+  {
+    "query": "meissner effect in superconductors",
+    "positive_document_id": "wikipedia_64",
+    "difficulty": 2,
+    "source": "wikipedia",
+    "weight": 2.0
+  }
+]

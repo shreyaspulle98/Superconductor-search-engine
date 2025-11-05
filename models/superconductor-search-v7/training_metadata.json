@@ -1,0 +1,29 @@
+{
+  "version": "v7",
+  "training_date": "2025-11-05T17:05:32.829007",
+  "base_model": "all-MiniLM-L6-v2",
+  "training_examples": 4286,
+  "epochs": 4,
+  "batch_size": 16,
+  "training_time": "0:03:41.284372",
+  "improvements_over_v6": {
+    "targeted_pairs_added": 560,
+    "josephson_junction_pairs": 180,
+    "cuprate_pairs": 200,
+    "meissner_effect_pairs": 180,
+    "wikipedia_percentage": "46.2% (up from 38.1%)",
+    "youtube_percentage": "23.1% (down from 26.6%)",
+    "fixes": [
+      "josephson junction queries should now return Wikipedia",
+      "cuprate superconductors queries should now return Wikipedia",
+      "meissner effect queries should prioritize Wikipedia over YouTube"
+    ]
+  },
+  "data_quality": {
+    "total_pairs": 4286,
+    "wikipedia_pairs": 1978,
+    "youtube_pairs": 990,
+    "arxiv_pairs": 1131,
+    "simple_wikipedia_pairs": 183
+  }
+}
