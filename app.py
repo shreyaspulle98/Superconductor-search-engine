@@ -1,238 +1,213 @@
 """
-Superconductor Semantic Search - HuggingFace Spaces App
-========================================================
+Superconductor Semantic Search V7 - Semantic Relevance Search
+==============================================================
 
-Gradio interface for the semantic search engine.
-This is the entry point for HuggingFace Spaces deployment.
+Gradio interface for the semantic search engine using Model V7.
+Returns the most semantically relevant results with difficulty labels.
 """
 
 import gradio as gr
 import json
-import faiss
 import numpy as np
-from sentence_transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer, util
 import os
+from pathlib import Path
 
 # ============================================================================
-# LOAD SEARCH SYSTEM
+# LOAD MODEL AND DOCUMENTS
 # ============================================================================
 
-print("Loading search system...")
+print("=" * 70)
+print("🚀 Loading Superconductor Search V7...")
+print("=" * 70)
 
-# Load FAISS index
-faiss_index = faiss.read_index("data/search_index/faiss_index.bin")
+# Load Model V7
+print("📥 Loading Model V7...")
+model_path = "models/superconductor-search-v7"
+model = SentenceTransformer(model_path)
+print(f"✅ Model V7 loaded from: {model_path}")
 
 # Load documents
-with open("data/search_index/documents.json", 'r', encoding='utf-8') as f:
+print("📥 Loading documents...")
+docs_path = "training/documents.json"
+with open(docs_path, 'r', encoding='utf-8') as f:
     documents = json.load(f)
+print(f"✅ Documents loaded: {len(documents)} documents")
 
-# Load metadata
-with open("data/search_index/index_metadata.json", 'r', encoding='utf-8') as f:
-    metadata = json.load(f)
+# Encode all documents
+print("🔄 Encoding documents...")
+doc_texts = [str(doc.get('content', ''))[:500] for doc in documents]  # Use first 500 chars
+doc_embeddings = model.encode(doc_texts, convert_to_numpy=True, show_progress_bar=True)
+print(f"✅ Document embeddings created: {doc_embeddings.shape}")
 
-# Load model (will download from HuggingFace if not present locally)
-model_path = metadata.get('model_path', 'models/superconductor-search-v1')
-if not os.path.exists(model_path):
-    # Fall back to HuggingFace Hub
-    model_path = "shreyaspulle98/superconductor-search-v1"  # Will be uploaded to HF
+print("=" * 70)
+print(f"✅ Search system ready! {len(documents)} documents indexed")
+print("=" * 70)
 
-model = SentenceTransformer(model_path)
+# ============================================================================
+# HELPER FUNCTIONS
+# ============================================================================
 
-print(f"✅ Search system loaded! {len(documents)} documents indexed")
+def get_document_difficulty_label(doc: dict) -> str:
+    """
+    Get difficulty label for a document based on its source and difficulty_level field.
+
+    Returns:
+        'Beginner', 'Intermediate', or 'Advanced'
+    """
+    # First check if document has explicit difficulty level
+    doc_difficulty = doc.get('difficulty_level', None)
+    if doc_difficulty:
+        if doc_difficulty <= 2:
+            return 'Beginner'
+        elif doc_difficulty <= 3:
+            return 'Intermediate'
+        else:
+            return 'Advanced'
+
+    # Fallback: infer from source
+    source = doc.get('source', 'unknown')
+    if source == 'simple_wikipedia':
+        return 'Beginner'
+    elif source in ['wikipedia', 'youtube', 'hyperphysics']:
+        return 'Intermediate'
+    elif source in ['arxiv', 'mit_ocw']:
+        return 'Advanced'
+    else:
+        return 'Intermediate'
+
+def get_best_results(similarities: np.ndarray, top_k: int = 10, sort_by_difficulty: bool = False) -> list:
+    """
+    Get top-k results sorted by similarity score.
+
+    Args:
+        similarities: Similarity scores for all documents
+        top_k: Number of results to return
+        sort_by_difficulty: If True, sort results by difficulty (Beginner → Advanced)
+                          while preserving semantic relevance within each tier
+
+    Returns:
+        List of (idx, score, doc, difficulty) tuples
+    """
+    # Get top indices sorted by similarity
+    top_indices = np.argsort(-similarities)[:top_k]
+
+    results = []
+    for idx in top_indices:
+        doc = documents[idx]
+        score = float(similarities[idx])
+        difficulty = get_document_difficulty_label(doc)
+
+        results.append((idx, score, doc, difficulty))
+
+    # Sort by difficulty if requested
+    if sort_by_difficulty:
+        # Define difficulty ordering
+        difficulty_order = {'Beginner': 1, 'Intermediate': 2, 'Advanced': 3}
+
+        # Sort by difficulty first (ascending), then by similarity (descending) within each tier
+        results.sort(key=lambda x: (difficulty_order.get(x[3], 2), -x[1]))
+
+    return results
 
 # ============================================================================
 # SEARCH FUNCTION
 # ============================================================================
 
-def detect_query_difficulty(query):
-    """Detect the difficulty level of a query based on keywords."""
-    query_lower = query.lower()
-
-    # Beginner indicators
-    beginner_keywords = ['what is', 'explain', 'introduction', 'basics', 'simple',
-                         'beginner', 'how does', 'what are', 'eli5', 'for dummies']
-    if any(kw in query_lower for kw in beginner_keywords):
-        return 1
-
-    # Expert indicators
-    expert_keywords = ['derive', 'proof', 'hamiltonian', 'eigenvalue', 'tensor',
-                       'renormalization', 'lagrangian', 'quantum field', 'topology']
-    if any(kw in query_lower for kw in expert_keywords):
-        return 4
-
-    # Advanced indicators
-    advanced_keywords = ['mechanism', 'theory of', 'calculate', 'mathematical',
-                        'statistical mechanics', 'thermodynamics']
-    if any(kw in query_lower for kw in advanced_keywords):
-        return 3
-
-    return 2
-
-def perform_search(query, difficulty_filter=None, num_results=10):
+def perform_search(query, sort_by_difficulty=False, num_results=10):
     """
-    Search for documents matching the query with difficulty-aware ranking.
+    Search for documents matching the query.
+    Returns the most relevant documents and labels them by their difficulty level.
 
     Args:
         query: Search query string
-        difficulty_filter: Optional difficulty level filter ("All" or 1-5)
+        sort_by_difficulty: If True, sort results by difficulty (Beginner → Advanced)
         num_results: Number of results to return
-
-    Returns:
-        Formatted HTML string with results
     """
     if not query or not query.strip():
         return "<p style='color: red;'>Please enter a search query.</p>"
 
     # Encode query
-    query_embedding = model.encode([query], convert_to_numpy=True).astype('float32')
-    faiss.normalize_L2(query_embedding)
+    query_embedding = model.encode([query], convert_to_numpy=True)
 
-    # Detect query difficulty if no filter specified
-    query_difficulty = detect_query_difficulty(query) if difficulty_filter == "All" else None
+    # Calculate similarities
+    similarities = util.cos_sim(query_embedding, doc_embeddings)[0].cpu().numpy()
 
-    # Search more results for better ranking
-    search_k = num_results * 10
-    scores, indices = faiss_index.search(query_embedding, min(search_k, len(documents)))
-
-    # Collect and score results
-    results = []
-    for score, idx in zip(scores[0], indices[0]):
-        doc = documents[idx]
-
-        # Apply difficulty filter if specified
-        if difficulty_filter != "All":
-            filter_level = int(difficulty_filter)
-            if doc.get('difficulty_level') != filter_level:
-                continue
-
-        # Boost score for difficulty match
-        adjusted_score = float(score)
-        if query_difficulty:
-            doc_difficulty = doc.get('difficulty_level', 3)
-
-            if doc_difficulty == query_difficulty:
-                adjusted_score *= 1.3
-            elif abs(doc_difficulty - query_difficulty) == 1:
-                adjusted_score *= 1.1
-
-            if query_difficulty == 1 and doc_difficulty == 1:
-                adjusted_score *= 1.2
-
-        # Boost for title match
-        doc_title = doc.get('title', '').lower()
-        query_terms = query.lower().split()
-        stop_words = {'a', 'an', 'the', 'in', 'on', 'at', 'to', 'for', 'of', 'and', 'or', 'but', 'is', 'are'}
-        meaningful_terms = [term for term in query_terms if term not in stop_words and len(term) > 2]
-
-        if meaningful_terms:
-            terms_in_title = sum(1 for term in meaningful_terms if term in doc_title)
-            match_ratio = terms_in_title / len(meaningful_terms)
-
-            if match_ratio >= 0.8:
-                adjusted_score *= 1.5
-            elif match_ratio >= 0.5:
-                adjusted_score *= 1.3
-            elif match_ratio >= 0.3:
-                adjusted_score *= 1.15
-
-        results.append({
-            'score': adjusted_score,
-            'title': doc.get('title', 'Untitled'),
-            'url': doc.get('url', '#'),
-            'source': doc.get('source', 'unknown'),
-            'difficulty_level': doc.get('difficulty_level', 3),
-            'word_count': doc.get('word_count', 0)
-        })
-
-    # Sort by adjusted score
-    results.sort(key=lambda x: x['score'], reverse=True)
-    results = results[:num_results]
+    # Get best results (sorted by similarity or difficulty)
+    results = get_best_results(similarities, top_k=num_results, sort_by_difficulty=sort_by_difficulty)
 
     if not results:
-        return "<p style='color: orange;'>No results found. Try a different query or remove the difficulty filter.</p>"
+        return "<p style='color: orange;'>No results found. Try a different query.</p>"
 
-    # Format results as HTML
-    difficulty_styles = {
-        1: {
-            "name": "Beginner",
-            "chip_bg": "#16a34a",
-            "chip_text": "#f0fdf4",
-            "accent": "linear-gradient(135deg, rgba(22, 163, 74, 0.08) 0%, rgba(22, 163, 74, 0.35) 55%, rgba(15, 23, 42, 0.0) 100%)",
-            "border": "#16a34a"
-        },
-        2: {
-            "name": "Intermediate",
-            "chip_bg": "#0ea5e9",
-            "chip_text": "#f0f9ff",
-            "accent": "linear-gradient(135deg, rgba(14, 165, 233, 0.08) 0%, rgba(14, 165, 233, 0.35) 55%, rgba(15, 23, 42, 0.0) 100%)",
-            "border": "#0ea5e9"
-        },
-        3: {
-            "name": "Advanced",
-            "chip_bg": "#f59e0b",
-            "chip_text": "#fff7ed",
-            "accent": "linear-gradient(135deg, rgba(245, 158, 11, 0.08) 0%, rgba(245, 158, 11, 0.3) 55%, rgba(15, 23, 42, 0.0) 100%)",
-            "border": "#f59e0b"
-        },
-        4: {
-            "name": "Expert",
-            "chip_bg": "#ef4444",
-            "chip_text": "#fef2f2",
-            "accent": "linear-gradient(135deg, rgba(239, 68, 68, 0.08) 0%, rgba(239, 68, 68, 0.35) 55%, rgba(15, 23, 42, 0.0) 100%)",
-            "border": "#ef4444"
-        },
-        5: {
-            "name": "Cutting-edge",
-            "chip_bg": "#6366f1",
-            "chip_text": "#eef2ff",
-            "accent": "linear-gradient(135deg, rgba(99, 102, 241, 0.08) 0%, rgba(99, 102, 241, 0.3) 55%, rgba(15, 23, 42, 0.0) 100%)",
-            "border": "#6366f1"
-        }
+    # Colors for different difficulty levels
+    difficulty_colors = {
+        'Beginner': '#16a34a',       # Green
+        'Intermediate': '#0ea5e9',   # Blue
+        'Advanced': '#f59e0b'        # Orange
     }
 
-    default_style = {
-        "name": "Advanced",
-        "chip_bg": "#475569",
-        "chip_text": "#f8fafc",
-        "accent": "linear-gradient(135deg, rgba(71, 85, 105, 0.1) 0%, rgba(71, 85, 105, 0.25) 55%, rgba(15, 23, 42, 0.0) 100%)",
-        "border": "#475569"
+    source_emojis = {
+        'arxiv': '📄',
+        'youtube': '📺',
+        'wikipedia': '📖',
+        'simple_wikipedia': '📘',
+        'mit_ocw': '🎓',
+        'scholarpedia': '📚',
+        'hyperphysics': '🔬'
     }
 
-    html = f"<h3 style='color:#f8fafc;'>Top {len(results)} Results for: '{query}'</h3><br>"
+    # Header
+    sort_info = "📚 Sorted: Beginner → Advanced (preserving relevance within each level)" if sort_by_difficulty else "🎯 Sorted: Most semantically relevant first"
+    html = f"""
+    <div style='margin-bottom: 20px; padding: 15px; background: #1e293b;
+                border-left: 4px solid #8b5cf6; border-radius: 10px; border: 1px solid #334155;'>
+        <h3 style='color:#f1f5f9; margin: 0 0 8px 0;'>🔍 Search Results for: "{query}"</h3>
+        <p style='margin: 0 0 5px 0; color: #94a3b8; font-size: 0.95em;'>
+            Found <strong>{len(results)}</strong> relevant results
+        </p>
+        <p style='margin: 0; color: #a78bfa; font-size: 0.85em; font-style: italic;'>
+            {sort_info}
+        </p>
+    </div>
+    """
 
-    for i, result in enumerate(results, 1):
-        level = result['difficulty_level']
-        style = difficulty_styles.get(level, default_style)
-        source_label = (result['source'] or 'unknown').replace('_', ' ').title()
+    # Results
+    for i, (idx, score, doc, difficulty) in enumerate(results, 1):
+        source = doc.get('source', 'unknown')
+        source_emoji = source_emojis.get(source, '📋')
+        source_label = source.replace('_', ' ').title()
+        title = doc.get('title', 'Untitled')
+        url = doc.get('url', '#')
+        difficulty_color = difficulty_colors.get(difficulty, '#0ea5e9')
 
         html += f"""
-        <div class='result-card' style='border-left: 6px solid {style['border']}'>
-            <div style='position:absolute; inset:0; background: {style['accent']}; opacity:0.6; pointer-events:none;'></div>
-            <div style='position:relative; z-index:1;'>
-                <div style='display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px;'>
-                    <div style='display: flex; align-items: center; gap: 12px;'>
-                        <span class='result-rank' style='background: {style['chip_bg']}; color: {style['chip_text']};'>
-                            {i}
-                        </span>
-                        <a href='{result['url']}' target='_blank' class='result-title'>
-                            {result['title']}
-                        </a>
-                    </div>
-                </div>
-                <div style='display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 12px;'>
-                    <span class='result-chip' style='background: {style['chip_bg']}; color: {style['chip_text']};'>
-                        {style['name']}
-                    </span>
-                    <span class='result-chip source-chip'>
-                        {source_label}
-                    </span>
-                    <span class='result-chip meta-chip'>
-                        {result['word_count']:,} words
-                    </span>
-                </div>
-                <div style='font-size: 0.9em; color: #94a3b8;'>
-                    Score: {result['score']:.4f}
-                </div>
+        <div style='background: #1e293b; border-radius: 12px; padding: 16px; margin-bottom: 14px;
+                    border: 1px solid #334155; box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+                    border-left: 4px solid {difficulty_color};'>
+            <div style='display: flex; align-items: center; gap: 10px; margin-bottom: 8px;'>
+                <span style='background: {difficulty_color}; color: white; font-weight: 700;
+                             border-radius: 50%; width: 28px; height: 28px; display: flex;
+                             align-items: center; justify-content: center; font-size: 0.9em;'>
+                    {i}
+                </span>
+                <a href='{url}' target='_blank' style='font-size: 1.1em; font-weight: 600;
+                   color: #f1f5f9; text-decoration: none; flex: 1;'>
+                    {source_emoji} {title}
+                </a>
+            </div>
+            <div style='display: flex; gap: 8px; flex-wrap: wrap;'>
+                <span style='background: {difficulty_color}; color: white; padding: 4px 12px;
+                             border-radius: 999px; font-size: 0.85em; font-weight: 600;'>
+                    {difficulty}
+                </span>
+                <span style='background: #312e81; color: #a5b4fc; padding: 4px 12px;
+                             border-radius: 999px; font-size: 0.85em; font-weight: 600;'>
+                    {source_label}
+                </span>
+                <span style='background: #0f172a; color: #94a3b8; padding: 4px 12px;
+                             border-radius: 999px; font-size: 0.85em;'>
+                    Similarity: {score:.4f}
+                </span>
             </div>
         </div>
         """
@@ -243,159 +218,71 @@ def perform_search(query, difficulty_filter=None, num_results=10):
 # GRADIO INTERFACE
 # ============================================================================
 
-with gr.Blocks(title="Superconductor Semantic Search", theme=gr.themes.Soft()) as demo:
+with gr.Blocks(title="Superconductor Semantic Search V7", theme=gr.themes.Soft()) as demo:
     gr.HTML("""
     <style>
-      body, .gradio-container {
-          background: linear-gradient(180deg, #020617 0%, #0b1120 100%) !important;
-          color: #e2e8f0;
-      }
-
-      .gradio-container .gr-block, .gradio-container .gr-panel, .gradio-container .gr-root {
-          background: transparent !important;
-      }
-
-      .result-card {
-          background: linear-gradient(145deg, rgba(15, 23, 42, 0.9), rgba(30, 41, 59, 0.92));
-          border-radius: 18px;
-          padding: 20px 22px;
-          margin-bottom: 18px;
-          border: 1px solid rgba(148, 163, 184, 0.25);
-          box-shadow: 0 18px 40px rgba(15, 23, 42, 0.45);
-          position: relative;
-          overflow: hidden;
-          color: #e2e8f0;
-      }
-
-      .result-rank {
-          display: inline-flex;
-          align-items: center;
-          justify-content: center;
-          font-weight: 700;
-          border-radius: 999px;
-          width: 34px;
-          height: 34px;
-          font-size: 1rem;
-          box-shadow: 0 10px 20px rgba(15, 23, 42, 0.35);
-      }
-
-      .result-title {
-          font-size: 1.2em;
-          font-weight: 700;
-          color: #f8fafc;
-          text-decoration: none;
-      }
-
-      .result-title:hover {
-          text-decoration: underline;
-      }
-
-      .result-chip {
-          display: inline-flex;
-          align-items: center;
-          font-size: 0.85em;
-          font-weight: 600;
-          padding: 6px 14px;
-          border-radius: 999px;
-          letter-spacing: 0.01em;
-      }
-
-      .source-chip {
-          background: rgba(148, 163, 184, 0.18);
-          color: #cbd5f5;
-          border: 1px solid rgba(148, 163, 184, 0.28);
-      }
-
-      .meta-chip {
-          color: #cbd5f5;
-          background: rgba(148, 163, 184, 0.08);
-          border: 1px solid rgba(148, 163, 184, 0.18);
-      }
-
-      .gr-markdown, .gr-markdown p, .gr-markdown h3, .gr-markdown li {
-          color: #e2e8f0 !important;
-      }
+        body, .gradio-container {
+            background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%) !important;
+        }
+        .gr-button-primary {
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%) !important;
+            color: #ffffff !important;
+            border: none !important;
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+        }
+        .gr-button-primary:hover {
+            box-shadow: 0 6px 16px rgba(99, 102, 241, 0.4);
+            transform: translateY(-1px);
+        }
     </style>
     """)
-    gr.Markdown("""
-    # ⚡ Superconductor Semantic Search
 
-    Semantic search engine across research papers, lectures, and educational content about superconductivity.
-    Powered by fine-tuned sentence transformers and FAISS vector search.
-
-    **Dataset**: 1,086 documents from Wikipedia, arXiv, MIT OCW, Simple Wikipedia, Scholarpedia, and HyperPhysics.
+    gr.HTML("""
+    <div style='padding: 20px; background: #1e293b; border-radius: 10px; margin-bottom: 20px; border: 1px solid #334155;'>
+        <h1 style='color: #f1f5f9; margin-bottom: 10px;'>⚡ Superconductor Semantic Search</h1>
+    </div>
     """)
 
-    with gr.Row():
-        with gr.Column(scale=3):
-            query_input = gr.Textbox(
-                label="Search Query",
-                placeholder="Ask a question about superconductors...",
-                lines=2
-            )
-        with gr.Column(scale=1):
-            difficulty_dropdown = gr.Dropdown(
-                label="Difficulty Filter",
-                choices=["All", "1", "2", "3", "4", "5"],
-                value="All",
-                info="Filter by difficulty level"
-            )
+    gr.HTML("""
+    <div style='padding: 15px; background: #1e293b; border-radius: 8px; margin-bottom: 15px; border: 1px solid #334155;'>
+        <p style='color: #cbd5e1; margin: 0; line-height: 1.6; font-size: 0.95em;'>
+            Search across 1,848 documents about superconductivity from Wikipedia, arXiv, YouTube, and more!
+            Results are ranked by semantic relevance and labeled by difficulty level:
+            <span style='color: #16a34a; font-weight: 600;'>Beginner</span>,
+            <span style='color: #0ea5e9; font-weight: 600;'>Intermediate</span>, or
+            <span style='color: #f59e0b; font-weight: 600;'>Advanced</span>.
+        </p>
+    </div>
+    """)
 
-    with gr.Row():
-        num_results_slider = gr.Slider(
-            minimum=5,
-            maximum=20,
-            value=10,
-            step=1,
-            label="Number of Results"
-        )
+    query_input = gr.Textbox(
+        label="",
+        placeholder="Search for superconductivity topics...",
+        lines=2,
+        show_label=False
+    )
+
+    difficulty_sort_checkbox = gr.Checkbox(
+        label="📚 Sort by difficulty (Beginner → Advanced) - Creates a learning progression",
+        value=False,
+        info="When checked, results are reordered from easiest to most complex, providing an intro/recap at the top"
+    )
 
     search_button = gr.Button("🔍 Search", variant="primary", size="lg")
 
     results_output = gr.HTML(label="Results")
 
-    # Examples
-    gr.Examples(
-        examples=[
-            ["What is a superconductor?", "All", 10],
-            ["room temperature superconductor", "All", 10],
-            ["BCS theory mechanism", "4", 10],
-            ["How does the Meissner effect work?", "2", 10],
-            ["high-Tc cuprate superconductors", "3", 10],
-        ],
-        inputs=[query_input, difficulty_dropdown, num_results_slider],
-    )
-
     query_input.submit(
-        fn=perform_search,
-        inputs=[query_input, difficulty_dropdown, num_results_slider],
+        fn=lambda q, sort_diff: perform_search(q, sort_diff, 10),
+        inputs=[query_input, difficulty_sort_checkbox],
         outputs=results_output
     )
 
     search_button.click(
-        fn=perform_search,
-        inputs=[query_input, difficulty_dropdown, num_results_slider],
+        fn=lambda q, sort_diff: perform_search(q, sort_diff, 10),
+        inputs=[query_input, difficulty_sort_checkbox],
         outputs=results_output
     )
-
-    gr.Markdown("""
-    ---
-    ### About
-
-    **Difficulty Levels:**
-    - 🟢 **Level 1 (Beginner)**: Introductory content from Simple Wikipedia and basic resources
-    - 🔵 **Level 2 (Intermediate)**: Wikipedia articles and educational content
-    - 🟡 **Level 3 (Advanced)**: Specialized encyclopedia entries and advanced lectures
-    - 🔴 **Level 4 (Expert)**: Research papers and technical documentation
-    - ⚫ **Level 5 (Cutting-edge)**: Latest research and preprints
-
-    **Features:**
-    - Difficulty-aware ranking (matches query complexity to content level)
-    - Title matching boost (prioritizes documents with relevant titles)
-    - Semantic search (understands meaning, not just keywords)
-
-    Built with [Sentence Transformers](https://www.sbert.net/) and [FAISS](https://github.com/facebookresearch/faiss)
-    """)
 
 # Launch
 if __name__ == "__main__":
